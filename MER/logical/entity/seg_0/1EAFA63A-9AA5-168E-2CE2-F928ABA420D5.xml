@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1EAFA63A-9AA5-168E-2CE2-F928ABA420D5" name="ASISTENCIA">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 03:24:12 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idAsistencia" id="14907371-0C02-ED3B-1A3C-CB1072416655">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 03:24:19 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaAsistencia" id="BEB2C0F6-9429-123E-7468-D7821DF56321">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 03:24:29 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idUsuario" id="4BDFC7F3-3346-F6F7-CBB0-E7B0A64C3EA6">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 03:43:34 UTC</createdTime>
+<generatorID>E7728608-69F0-31F3-3D75-50E5A6AB9259</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<referedAttribute>D9AF8988-D1F0-6297-86FA-3A001391864D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5345C323-A292-62E8-A38A-D89F2AB3384D" name="ASISTENCIA PK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 03:24:28 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>14907371-0C02-ED3B-1A3C-CB1072416655</attributeRef>
+<attributeRef>4BDFC7F3-3346-F6F7-CBB0-E7B0A64C3EA6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

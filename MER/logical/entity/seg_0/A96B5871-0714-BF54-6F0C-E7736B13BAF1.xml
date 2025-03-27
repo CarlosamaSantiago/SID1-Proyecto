@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A96B5871-0714-BF54-6F0C-E7736B13BAF1" name="VENTA">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 03:29:33 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idVenta" id="6689B799-1FB5-3BFB-0E2F-F724C010E4E8">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 03:29:40 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaVenta" id="DA96EDAD-56EC-BAD2-5E05-9412E98FDC9E">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 03:29:55 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="costoTotalVenta" id="35EA2312-D324-F740-F3A0-3687C3B066CF">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 03:30:02 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idUsuario" id="129B363F-5018-5385-E32A-4C28354F3B15">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 03:48:48 UTC</createdTime>
+<generatorID>2DDC9E57-8C96-0FAA-C23F-3035D97CC76A</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<referedAttribute>D9AF8988-D1F0-6297-86FA-3A001391864D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F77DB6C4-B582-818E-40A6-19C28F427AD2" name="VENTA PK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 03:30:15 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6689B799-1FB5-3BFB-0E2F-F724C010E4E8</attributeRef>
+<attributeRef>129B363F-5018-5385-E32A-4C28354F3B15</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

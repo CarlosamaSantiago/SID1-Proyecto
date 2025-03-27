@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0CFF07E9-D379-F653-D591-B69E5A5815BE" name="PLANENTRENAMIENTO">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 03:27:18 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idPlan" id="71EF033B-CC86-81E3-A92F-3FC8AE7501C2">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 03:27:29 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="objetivoPlan" id="D86D1003-50D6-B50A-083D-CF444BBEB810">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 03:27:35 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duracionPlan" id="50A5E461-217F-5EA5-3133-75D816B7656E">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 03:27:54 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="costoPlan" id="A808D34E-6F48-36F5-F768-3C4719D79C5F">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 03:28:07 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observaciones" id="7E500070-E917-ABDE-B8F1-ED2DAD3652DE">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 03:28:19 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D39E1146-1D76-6174-F822-351B4CE5E56B" name="PLANENTRENAMIENTO PK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 03:27:33 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>71EF033B-CC86-81E3-A92F-3FC8AE7501C2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

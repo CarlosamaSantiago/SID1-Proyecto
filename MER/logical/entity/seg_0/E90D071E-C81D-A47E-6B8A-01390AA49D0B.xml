@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E90D071E-C81D-A47E-6B8A-01390AA49D0B" name="IMPLEMENTO">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 03:25:59 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idImplemento" id="30785871-B1BC-CF93-4607-EBC6C0ADF881">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 03:26:41 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombreImplemento" id="E2F81943-FE61-4896-D3FC-39D6C0DAB3A0">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 03:26:46 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estadoImplemento" id="F0A4102D-2785-3C43-61F8-3DC768B20D69">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 03:26:54 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D63B23D2-A4CD-7777-E5E7-3D40A716E820" name="IMPLEMENTO PK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 03:26:45 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>30785871-B1BC-CF93-4607-EBC6C0ADF881</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

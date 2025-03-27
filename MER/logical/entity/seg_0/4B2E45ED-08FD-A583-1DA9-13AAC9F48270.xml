@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B2E45ED-08FD-A583-1DA9-13AAC9F48270" name="CONTRATO">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 03:39:55 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idContrato" id="AA357B4C-62FB-91E0-46EF-DC45058212FF">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 03:40:00 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaContrato" id="D9F0B74D-B430-64DF-735B-400213577CDE">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 03:40:09 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idUsuario" id="31EA2828-4162-B9D9-ADC4-4F51D0284E57">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 03:42:47 UTC</createdTime>
+<generatorID>DB015D63-7930-719F-441F-2E02038E25B4</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<referedAttribute>D9AF8988-D1F0-6297-86FA-3A001391864D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPlan" id="4ED220AC-9B6E-DC88-3E37-D83191698A2D">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 03:53:42 UTC</createdTime>
+<generatorID>C17D9A13-CB56-7D40-BD89-95A09FCEE74D</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<referedAttribute>71EF033B-CC86-81E3-A92F-3FC8AE7501C2</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9FAA74ED-3524-C417-6499-2E8991EBA030" name="CONTRATO PK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 03:40:17 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AA357B4C-62FB-91E0-46EF-DC45058212FF</attributeRef>
+<attributeRef>31EA2828-4162-B9D9-ADC4-4F51D0284E57</attributeRef>
+<attributeRef>4ED220AC-9B6E-DC88-3E37-D83191698A2D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

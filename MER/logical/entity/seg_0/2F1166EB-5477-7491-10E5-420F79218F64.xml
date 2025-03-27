@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F1166EB-5477-7491-10E5-420F79218F64" name="SURTIDO">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 04:45:56 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idSurtido" id="3D5D74E1-C357-B19F-8DC7-04212677F78B">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 04:46:03 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idUsuario" id="C2463C1B-18D0-AFA1-8C50-A85837E64628">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 04:46:41 UTC</createdTime>
+<generatorID>E7E73B97-55F2-4A35-A7E0-193B49223B51</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<referedAttribute>D9AF8988-D1F0-6297-86FA-3A001391864D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idProducto" id="B419C2FB-B267-6410-B66C-0C454322BB4C">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 04:47:17 UTC</createdTime>
+<generatorID>3103CDF0-1E38-CC8A-08BD-E851B1094851</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<referedAttribute>5179AF09-19BF-7E00-3ABE-0EA720862ABD</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaSurtido" id="8915A2A5-9DFC-FA6F-EED9-0F852E4E6E8C">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 04:55:02 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="costoTotal" id="EAFD767D-511F-7360-D0B5-D8A016B98A1E">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 04:55:29 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B8E801BF-89E2-75E7-D0DB-10E927FB3705" name="SURTIDO PK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-03-27 04:46:30 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="AB6623C8-289C-3B2A-E712-0EFE0FFA56D6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3D5D74E1-C357-B19F-8DC7-04212677F78B</attributeRef>
+<attributeRef>C2463C1B-18D0-AFA1-8C50-A85837E64628</attributeRef>
+<attributeRef>B419C2FB-B267-6410-B66C-0C454322BB4C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
