@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FFAC7404-A2EB-CDFE-7FB1-B16378D07D57" name="ASISTENCIAS">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>F479846A-347B-2DE1-AFD7-0CA203D5B27E</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<ordsAlias>asistencia</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idAsistencia" id="4AFFB52E-32E1-5C44-B856-7F8131CFDABA">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>8A3AA196-881F-BBFE-CBEA-D46E52FEDD1C</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaAsistencia" id="6EFFCD0E-37A0-6494-A8CE-17035B44F185">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>64903496-1786-B770-6DFC-AF7DBB540A1F</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horaLlegada" id="96FE0030-62E8-51E2-139B-7D26180D75EE">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>EF0F4DC0-216A-CD72-1359-35E662BF6BB6</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horaSalida" id="FACAA0C0-D7C8-AAF4-CEC1-E8E087BAAD58">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>86DF15C4-3895-D168-E2E1-5C598C1A7B07</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idCliente" id="5BC6D696-3019-DD51-96C5-070700DECA2F">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>ED8A445A-640D-07DA-D0BF-1BF8B01879C1</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81E480B1-D0BF-65CC-0331-5D764872A508" referredColumn="D2A7400C-BE05-6A02-6600-33DCBAAEA77D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D27D392C-9D74-5C02-06A0-3B32831EAED3" name="ASISTENCIA_PK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>4753F669-FF66-6330-AF7C-AC1AF284F548</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AFFB52E-32E1-5C44-B856-7F8131CFDABA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C6140E4-9172-3BC3-156C-243AB73E2AE8" name="ASISTENCIA_CLIENTE_FK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>311731C2-ABCF-74A7-43C0-411641C5B640</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BC6D696-3019-DD51-96C5-070700DECA2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

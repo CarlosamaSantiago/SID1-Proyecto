@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Mantenimiento_Tecnico" directorySegmentName="seg_0" id="05D52134-51E7-785A-6CDC-C7C749F64716">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 22:37:42 UTC</createdTime>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<sourcePk>75B50152-1950-9195-B78C-65A29A6EF7E6</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Realiza</nameOnSource>
+<nameOnTarget>Realizados por</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CA01E78D-8FA5-3153-C3FE-ED5B832F02C4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DC0B6509-3AF6-3225-646E-AA5FF768CC1E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

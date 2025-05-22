@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_14" directorySegmentName="seg_0" id="A483D61B-950B-8C05-91BF-70A9E9B1FA34">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 22:56:55 UTC</createdTime>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<sourcePk>78195E3C-3C25-44D8-DE65-4D7FA06D8263</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Se almacena en</nameOnSource>
+<nameOnTarget>Almacena</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7BBFC8E6-3AE1-34D0-2704-EFD92B0FB80A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>506D555C-746F-183A-C587-CCFE4A7AAD9C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

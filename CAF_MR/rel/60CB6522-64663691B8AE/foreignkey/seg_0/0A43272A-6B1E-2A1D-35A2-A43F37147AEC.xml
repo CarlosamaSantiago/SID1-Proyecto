@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0A43272A-6B1E-2A1D-35A2-A43F37147AEC" containerWithKeyObject="C1FC30A9-A037-8A04-7A1A-D38F002E5998" localFKIndex="C4949623-9BCC-D8E4-8AAA-4B0B109A90A1" name="PEDIDO_PROVEEDOR_FK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>B150A89F-EB07-D8A3-371C-44197D9DEE9F</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<referredTableLongName>PROVEEDORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E983DA72-C51A-EEE6-BE54-0C581826F60B</referredTableID>
+<keyObject>21915EAC-9EB6-88F9-5F0A-E7A845291961</keyObject>
+<referredKeyID>21915EAC-9EB6-88F9-5F0A-E7A845291961</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idProveedor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

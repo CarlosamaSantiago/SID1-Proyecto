@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83CF308F-4F73-AA79-0415-7665856A3A96" name="ACTIVACIONES_MENSUALES">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>506D555C-746F-183A-C587-CCFE4A7AAD9C</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<ordsAlias>activacion_mensual</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idActivacion" id="5F77FEAE-22E8-32E5-3B40-6CEE35244B5A">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:23:58 UTC</createdTime>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idContrato" id="F55AB1DE-E4C9-F1A7-CFAA-13A8AA3F725F">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>36AD100D-5655-7B3A-A2C7-72679138ACBA</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC1CE194-6293-6281-DC4B-B693A37479F9" referredColumn="16651852-3ABD-B94A-43ED-B1A4528A2472"/>
+</associations>
+</Column>
+<Column name="idPago" id="ADD8FA34-9F8E-98EB-6482-0467AE0F2CBA">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>F7414CA8-859E-5EC3-C5E7-24FDCCB7E971</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="911F24D7-CD9B-61CC-F92A-53696A81EB87" referredColumn="F161B701-D486-9053-4912-1127C154E0EE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="137B2FBA-8184-9CF7-29FB-0F69D0B5B6DC" name="ACTIVACION_MENSUAL_PK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>34D1DB52-252B-09DA-2686-79692A0DEBC1</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F77FEAE-22E8-32E5-3B40-6CEE35244B5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3A02956-75DD-204C-DDC3-83D46D8F41D6" name="ACTIVACION_MENSUAL_CONTRATO_FK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>73D571C7-1723-796A-4AD4-2EA33F5D1047</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F55AB1DE-E4C9-F1A7-CFAA-13A8AA3F725F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBDAF8F6-5566-0B70-8186-548ECE7DF42C" name="ACTIVACION_MENSUAL_PAGO_MEMBRESIA_FK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>A483D61B-950B-8C05-91BF-70A9E9B1FA34</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADD8FA34-9F8E-98EB-6482-0467AE0F2CBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

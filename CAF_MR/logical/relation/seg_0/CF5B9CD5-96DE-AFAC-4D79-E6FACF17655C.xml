@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Plan del Contrato" directorySegmentName="seg_0" id="CF5B9CD5-96DE-AFAC-4D79-E6FACF17655C">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 22:42:01 UTC</createdTime>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<sourcePk>E0A514C1-AF65-B7E5-02F6-8F28C0FDC1DE</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Elegido en</nameOnSource>
+<nameOnTarget>Representa</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3030E255-B1E9-83D7-9976-091AA5927047</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9EE591B1-3B07-0BBB-6507-7BDC2E527DF7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="152EC15C-F674-BE80-8D69-433CC5BD48A9" name="PRODUCTO_VENDIDO">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 21:46:10 UTC</createdTime>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cantidadTotal" id="B3CF4F6B-0E28-D31E-374B-BA46D84C6540">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 21:46:30 UTC</createdTime>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idVenta" id="5C9C550F-B473-3CD5-CEB4-653ACF3423B4">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 22:51:36 UTC</createdTime>
+<generatorID>5847373D-45B8-848B-D7B1-7B5CE8E36F9F</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<referedAttribute>CB8E4E98-5A43-FA23-D2EB-DA63545899B5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idCliente" id="B68E62DA-2B67-45EA-FB4C-574EF174475B">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 22:51:36 UTC</createdTime>
+<generatorID>5847373D-45B8-848B-D7B1-7B5CE8E36F9F</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<referedAttribute>BA51D510-6CFD-A002-4F88-B9949E541673</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idRecepcionista" id="ADB61456-DE1E-F4EF-CFB7-9BB8B18597E2">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 22:51:36 UTC</createdTime>
+<generatorID>5847373D-45B8-848B-D7B1-7B5CE8E36F9F</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<referedAttribute>F98317F0-5A04-811B-1081-18B15A5F0EFF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idProducto" id="41FA536E-368E-4CAD-3D30-D8C0F600AA08">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 22:52:19 UTC</createdTime>
+<generatorID>746337B1-35C2-7633-2457-2E7E4BCCF04C</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<referedAttribute>A0660B20-9431-0BF8-0AB8-43193714AC0A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="17AA07E5-8DC6-B4B9-7FA5-C019FBAF6182" name="PRODUCTO_VENDIDO PK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 22:51:36 UTC</createdTime>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5C9C550F-B473-3CD5-CEB4-653ACF3423B4</attributeRef>
+<attributeRef>B68E62DA-2B67-45EA-FB4C-574EF174475B</attributeRef>
+<attributeRef>ADB61456-DE1E-F4EF-CFB7-9BB8B18597E2</attributeRef>
+<attributeRef>41FA536E-368E-4CAD-3D30-D8C0F600AA08</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

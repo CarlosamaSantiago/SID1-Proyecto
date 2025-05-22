@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DC0B6509-3AF6-3225-646E-AA5FF768CC1E" name="MANTENIMIENTO">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 21:21:37 UTC</createdTime>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idMantenimiento" id="31605C5F-50F4-F61D-93F1-A92D70593EF6">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 21:21:44 UTC</createdTime>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaMantenimiento" id="BA1E1781-AE43-EFB4-C25B-7129890295DB">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 21:22:10 UTC</createdTime>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observacionesMantenimiento" id="73E5602C-E440-D074-D999-7B820203641B">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 21:22:49 UTC</createdTime>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idImplemento" id="404A975A-3C92-2A78-97FF-C6FE17A2DD59">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 22:36:12 UTC</createdTime>
+<generatorID>B98019D4-902A-8417-D3AB-DCF8DBD77763</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<referedAttribute>A20D286D-DEE8-046F-1699-74CB40469F9C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idTecnico" id="01B6950F-A213-2D01-E164-A038073DD308">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 22:37:42 UTC</createdTime>
+<generatorID>05D52134-51E7-785A-6CDC-C7C749F64716</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<referedAttribute>B30B27FA-C8B1-B011-0E5D-E08EE1D35DEB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C17A5F05-562F-9ECB-47A7-7906E947D4E1" name="MANTENIMIENTO PK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 21:22:00 UTC</createdTime>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>31605C5F-50F4-F61D-93F1-A92D70593EF6</attributeRef>
+<attributeRef>404A975A-3C92-2A78-97FF-C6FE17A2DD59</attributeRef>
+<attributeRef>01B6950F-A213-2D01-E164-A038073DD308</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

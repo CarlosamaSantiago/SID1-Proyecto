@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="911F24D7-CD9B-61CC-F92A-53696A81EB87" containerWithKeyObject="83CF308F-4F73-AA79-0415-7665856A3A96" localFKIndex="CBDAF8F6-5566-0B70-8186-548ECE7DF42C" name="ACTIVACION_MENSUAL_PAGO_MEMBRESIA_FK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>A483D61B-950B-8C05-91BF-70A9E9B1FA34</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<referredTableLongName>PAGOS_MEMBRESIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D10D2690-E2C9-6786-325A-A66B2FE1D7F3</referredTableID>
+<keyObject>DDB1CBC8-254C-7C3A-3A6D-B7BCAE2509F5</keyObject>
+<referredKeyID>DDB1CBC8-254C-7C3A-3A6D-B7BCAE2509F5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idPago</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

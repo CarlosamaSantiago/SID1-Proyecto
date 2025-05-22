@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="CFBFA9D4-40CB-37BE-8ECA-0EC54C1F1120" mainViewID="C5CA20D4-BC1E-8276-4DA3-DEB63EAF2E01">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 18:23:27 UTC</createdTime>
+<ownerDesignName>ReassutingCAF2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

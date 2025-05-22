@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="60CB6522-6FCF-9808-AA1D-64663691B8AE" mainViewID="F52008A6-5673-B924-F4B5-662991EB9559">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 18:23:30 UTC</createdTime>
+<ownerDesignName>ReassutingCAF2</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F33754AD-0249-A5C8-BE0C-DDBB4EB97123" containerWithKeyObject="BB926543-D4C9-877E-C24F-6B8B2395C537" localFKIndex="009B1BC6-E1C6-4231-E0FA-FDC8E15264CD" name="CONTRATO_PLAN_ENTRENAMIENTO_FK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>CF5B9CD5-96DE-AFAC-4D79-E6FACF17655C</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<referredTableLongName>PLANES_ENTRENAMIENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1611D19A-72B8-BD6F-536C-6DFDBB336DAF</referredTableID>
+<keyObject>32005EAB-1A08-CE9A-4896-AF7B5687B780</keyObject>
+<referredKeyID>32005EAB-1A08-CE9A-4896-AF7B5687B780</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idPlan</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

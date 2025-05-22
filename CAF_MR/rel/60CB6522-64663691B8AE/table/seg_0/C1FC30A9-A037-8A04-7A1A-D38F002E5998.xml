@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1FC30A9-A037-8A04-7A1A-D38F002E5998" name="PEDIDOS">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>FC09E379-C4C9-0F90-FDB1-5EE3E838A2ED</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<ordsAlias>pedido</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPedido" id="CB65538E-9AC8-0EEF-C3DB-C8222C79A63E">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>335BD655-AD13-B628-3087-FCAC07F42819</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaDePetición" id="D3D9DA08-797E-96DC-3D60-566FE6516F39">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>A84F4829-65E0-2FB7-5249-915D246912FE</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estadoPedido" id="320FC1E4-8A0A-3FD1-ACCE-2F0932213821">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>31769813-E8B9-529F-574F-EA4F2743AB8E</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaEntrega" id="E9613DAC-584A-219F-1BE7-052EE0681EF2">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>134704B4-6B4F-CB69-447A-0D043BF82BB9</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idProveedor" id="4B4B8538-5CE2-1F10-AEF3-682F9744385D">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>5CE13AA2-C02C-DCD4-75C7-262E34C524C0</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A43272A-6B1E-2A1D-35A2-A43F37147AEC" referredColumn="8A193594-B0D5-0665-8FBD-60F26E90A6F2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="59C59DDA-1CE2-D78F-D70E-4648B6D8B8E5" name="PEDIDO_PK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>B7601F1D-6AA9-61D9-31E2-5532DDDD87CB</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB65538E-9AC8-0EEF-C3DB-C8222C79A63E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4949623-9BCC-D8E4-8AAA-4B0B109A90A1" name="PEDIDO_PROVEEDOR_FK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>B150A89F-EB07-D8A3-371C-44197D9DEE9F</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B4B8538-5CE2-1F10-AEF3-682F9744385D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

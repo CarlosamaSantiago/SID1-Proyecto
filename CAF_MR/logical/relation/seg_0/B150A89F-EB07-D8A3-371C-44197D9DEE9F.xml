@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pedido a Proveedor" directorySegmentName="seg_0" id="B150A89F-EB07-D8A3-371C-44197D9DEE9F">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 22:58:17 UTC</createdTime>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<sourcePk>D95651F5-04FD-5B13-42C8-072CA20B8F6F</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Entrega</nameOnSource>
+<nameOnTarget>Entrgado por</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>30CC314F-9ED4-C083-91E6-F51E3611F4E7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FC09E379-C4C9-0F90-FDB1-5EE3E838A2ED</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

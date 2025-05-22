@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31325017-6AD1-38E4-A5B4-FDD4C068AFB9" name="PRODUCTOS_VENDIDOS">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>152EC15C-F674-BE80-8D69-433CC5BD48A9</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<ordsAlias>producto_vendido</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idVendidos" id="E541CC20-3D3B-C280-B205-885225557153">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-22 02:20:46 UTC</createdTime>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idVenta" id="5BF5B222-DB83-6D9E-7A7F-6E32330A8166">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>5C9C550F-B473-3CD5-CEB4-653ACF3423B4</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C8864EE-6371-7ADD-5B45-E7B7CB7FEEBA" referredColumn="7EAE8EBF-0D52-AC58-EC99-A51C88CE346C"/>
+</associations>
+</Column>
+<Column name="cantidadTotal" id="542F576F-B7BF-23B8-F3E3-2542E2336289">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>B3CF4F6B-0E28-D31E-374B-BA46D84C6540</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idProducto" id="E21FC416-AE22-7B8D-566B-C29B09169EFA">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>41FA536E-368E-4CAD-3D30-D8C0F600AA08</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0065F6A4-E168-D6AD-6084-F3088CF72A49" referredColumn="F8B1782A-B879-1BFC-8710-0C44E47F7343"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="250E4EF7-ECC5-68D0-5133-9D1E5C0C3995" name="PRODUCTO_VENDIDO_PK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>17AA07E5-8DC6-B4B9-7FA5-C019FBAF6182</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E541CC20-3D3B-C280-B205-885225557153"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="787595EB-8F87-8DB3-6AEE-5FF9F6CDEDA5" name="PRODUCTO_VENDIDO_VENTA_FK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>5847373D-45B8-848B-D7B1-7B5CE8E36F9F</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BF5B222-DB83-6D9E-7A7F-6E32330A8166"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CAC1046-A5B1-2870-CFD0-9F315E515EBF" name="PRODUCTO_VENDIDO_PRODUCTO_FK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>746337B1-35C2-7633-2457-2E7E4BCCF04C</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E21FC416-AE22-7B8D-566B-C29B09169EFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

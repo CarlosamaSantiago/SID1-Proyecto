@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="CAF_MR" id="14DDD6A0-2F24-5117-393D-2A431C413A8C" version="3.5">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 18:23:27 UTC</createdTime>
+<ownerDesignName>ReassutingCAF2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>14DDD6A0-2F24-5117-393D-2A431C413A8C</designId>
+</OSDM_Design>

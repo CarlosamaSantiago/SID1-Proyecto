@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="21E51824-4853-1E80-6A67-2C9E3500FD84" containerWithKeyObject="59E559BD-C54D-A930-2F08-EB24C63B21AC" localFKIndex="5C2A1D8E-DA6E-5D44-1CB9-79CE338426FB" name="EVALUACION_FISICA_ENTRENADOR_FK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>9A010C6C-DB04-3CF3-5081-BE9325CF34B3</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<referredTableLongName>ENTRENADOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9C8E7B0A-1A87-6157-AABE-83BECCE9D9DC</referredTableID>
+<keyObject>719F418D-8100-9603-3316-A234385FA43D</keyObject>
+<referredKeyID>719F418D-8100-9603-3316-A234385FA43D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idEntrenador</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

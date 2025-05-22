@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="78A6B381-BC94-49D2-527C-7412795CD073" containerWithKeyObject="C076096E-775D-94D1-1644-FA2F869E641D" localFKIndex="C14DF3CF-0EA3-71F9-665E-34FD49FCD8B6" name="MANTENIMIENTO_TECNICO_FK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>05D52134-51E7-785A-6CDC-C7C749F64716</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<referredTableLongName>TECNICOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2D4C1F1D-13C9-C17F-69C4-B5CF6AF1132B</referredTableID>
+<keyObject>B024A9BA-BD3E-B4CB-7EDF-1768764439D2</keyObject>
+<referredKeyID>B024A9BA-BD3E-B4CB-7EDF-1768764439D2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idTecnico</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

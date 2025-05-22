@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F479846A-347B-2DE1-AFD7-0CA203D5B27E" name="ASISTENCIA">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 21:37:39 UTC</createdTime>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idAsistencia" id="8A3AA196-881F-BBFE-CBEA-D46E52FEDD1C">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 21:38:10 UTC</createdTime>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaAsistencia" id="64903496-1786-B770-6DFC-AF7DBB540A1F">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 21:40:11 UTC</createdTime>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horaLlegada" id="EF0F4DC0-216A-CD72-1359-35E662BF6BB6">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 21:40:26 UTC</createdTime>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horaSalida" id="86DF15C4-3895-D168-E2E1-5C598C1A7B07">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 21:40:39 UTC</createdTime>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idCliente" id="ED8A445A-640D-07DA-D0BF-1BF8B01879C1">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 22:45:28 UTC</createdTime>
+<generatorID>311731C2-ABCF-74A7-43C0-411641C5B640</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<referedAttribute>B6FC4480-A38D-FBF3-E67D-7E420D98E322</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4753F669-FF66-6330-AF7C-AC1AF284F548" name="ASISTENCIA PK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 21:38:21 UTC</createdTime>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8A3AA196-881F-BBFE-CBEA-D46E52FEDD1C</attributeRef>
+<attributeRef>ED8A445A-640D-07DA-D0BF-1BF8B01879C1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

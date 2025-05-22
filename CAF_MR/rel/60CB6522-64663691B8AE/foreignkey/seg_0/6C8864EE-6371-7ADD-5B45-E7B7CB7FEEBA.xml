@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6C8864EE-6371-7ADD-5B45-E7B7CB7FEEBA" containerWithKeyObject="31325017-6AD1-38E4-A5B4-FDD4C068AFB9" localFKIndex="787595EB-8F87-8DB3-6AEE-5FF9F6CDEDA5" name="PRODUCTO_VENDIDO_VENTA_FK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>5847373D-45B8-848B-D7B1-7B5CE8E36F9F</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<referredTableLongName>VENTAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4D662B91-9B94-992E-967C-811578CE9130</referredTableID>
+<keyObject>8786AE38-6B15-34DE-8D59-A3C198D2791D</keyObject>
+<referredKeyID>8786AE38-6B15-34DE-8D59-A3C198D2791D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idVenta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

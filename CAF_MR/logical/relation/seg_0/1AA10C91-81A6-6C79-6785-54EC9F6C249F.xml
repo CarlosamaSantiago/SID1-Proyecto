@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Contrato Cliente" directorySegmentName="seg_0" id="1AA10C91-81A6-6C79-6785-54EC9F6C249F">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 22:41:15 UTC</createdTime>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<sourcePk>E56C5A6C-0ACF-DE62-240D-C0DAD62086AA</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Firma</nameOnSource>
+<nameOnTarget>Fideliza</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3AADBAE2-B669-E1A3-C0B7-7D8D270416C1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9EE591B1-3B07-0BBB-6507-7BDC2E527DF7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C076096E-775D-94D1-1644-FA2F869E641D" name="MANTENIMIENTOS">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>DC0B6509-3AF6-3225-646E-AA5FF768CC1E</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<ordsAlias>mantenimiento</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idMantenimiento" id="BEA79C6A-0BD9-F31A-E841-E947745AD9DF">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>31605C5F-50F4-F61D-93F1-A92D70593EF6</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaMantenimiento" id="DF492286-4370-96E4-5B0B-03C524A38317">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>BA1E1781-AE43-EFB4-C25B-7129890295DB</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observacionesMantenimiento" id="541E6062-4D8B-B732-9AB3-D909E7A28396">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>73E5602C-E440-D074-D999-7B820203641B</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idImplemento" id="8A0BEED1-5160-C71E-122C-E3E67DC6FFBA">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>404A975A-3C92-2A78-97FF-C6FE17A2DD59</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="855575DE-268A-C3F4-6A61-FB9F8126AA96" referredColumn="4E5868C1-7295-DB7E-CAF7-BBDC1DA94140"/>
+</associations>
+</Column>
+<Column name="idTecnico" id="687F761A-A67D-24E1-A5F3-0216682FBE4D">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>01B6950F-A213-2D01-E164-A038073DD308</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78A6B381-BC94-49D2-527C-7412795CD073" referredColumn="6ABDD84F-E77D-DEDE-DBD6-0DBB17FEF9FC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C8AEDCC-4D36-FE68-5954-7A5D3D72D0C3" name="MANTENIMIENTO_PK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>C17A5F05-562F-9ECB-47A7-7906E947D4E1</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEA79C6A-0BD9-F31A-E841-E947745AD9DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C14DF3CF-0EA3-71F9-665E-34FD49FCD8B6" name="MANTENIMIENTO_TECNICO_FK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>05D52134-51E7-785A-6CDC-C7C749F64716</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="687F761A-A67D-24E1-A5F3-0216682FBE4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B3B789C-F201-32B1-AAC6-C45AE9CC9470" name="MANTENIMIENTO_IMPLEMENTO_FK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>B98019D4-902A-8417-D3AB-DCF8DBD77763</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A0BEED1-5160-C71E-122C-E3E67DC6FFBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

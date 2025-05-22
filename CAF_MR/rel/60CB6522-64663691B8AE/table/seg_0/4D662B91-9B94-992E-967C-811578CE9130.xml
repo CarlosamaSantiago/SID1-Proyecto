@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D662B91-9B94-992E-967C-811578CE9130" name="VENTAS">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>B16A4822-6378-B4F8-9CB9-BA1829E6F304</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<ordsAlias>venta</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idVenta" id="7EAE8EBF-0D52-AC58-EC99-A51C88CE346C">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>CB8E4E98-5A43-FA23-D2EB-DA63545899B5</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaVenta" id="E24A3601-644E-E724-2783-E8B8469C8014">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>5A3FBAC6-2E98-94A6-9135-46DB95D9377C</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idCliente" id="0FEA7564-CD34-1158-C765-B302981FB309">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>BA51D510-6CFD-A002-4F88-B9949E541673</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FFE54E0D-3A8E-65D2-C031-80CC628F6910" referredColumn="D2A7400C-BE05-6A02-6600-33DCBAAEA77D"/>
+</associations>
+</Column>
+<Column name="idRecepcionista" id="362AAD1E-8F87-857B-D6C3-B795E2FFC013">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>F98317F0-5A04-811B-1081-18B15A5F0EFF</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="60408183-2F6B-AD90-4538-13686F0E70DF" referredColumn="2C0233BD-E117-6294-32C4-9D70B66DA83B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8786AE38-6B15-34DE-8D59-A3C198D2791D" name="VENTA_PK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>46242B34-D939-BC25-A8AD-BF34633A44D0</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EAE8EBF-0D52-AC58-EC99-A51C88CE346C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F054435-737C-24D6-F4D3-88F8EB5B62B2" name="VENTA_CLIENTE_FK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>937035E1-091E-2115-3765-EB7DD8C299AE</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FEA7564-CD34-1158-C765-B302981FB309"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="322C2668-FC68-84ED-12E3-EFEA9952A10E" name="VENTA_RECEPCIONISTA_FK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>270AA5CC-CED7-A71A-02EA-CF0C00038223</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="362AAD1E-8F87-857B-D6C3-B795E2FFC013"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

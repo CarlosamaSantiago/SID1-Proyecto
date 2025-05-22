@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0CF4B307-9F2B-1C5A-F6FD-1E09C4E98049" name="PRODUCTOS_SURTIDOS">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>63C88D64-5A34-3EFE-465A-9106951F6C97</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<ordsAlias>producto_surtido</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idSurtidos" id="1EAB4489-1201-857F-CE70-B440ED042F0B">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-22 02:21:50 UTC</createdTime>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidadProducto" id="5D08E6AC-8010-98A5-33F0-4B25564FE4B7">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>BA34287B-BF11-B9F6-EAA0-4A70C43D3100</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idProducto" id="4CBBDF41-9CEA-6613-27DF-4D89E6478826">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>A055A2F8-1326-8E8F-C4E3-E4B599E7E5F0</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66A5D6FD-E35F-DF05-DC48-AAFB9C0DE42B" referredColumn="F8B1782A-B879-1BFC-8710-0C44E47F7343"/>
+</associations>
+</Column>
+<Column name="idPedido" id="62BB597E-D6B6-3835-E188-A714FFC11632">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>498FE7D2-667F-B436-1755-237BDF99D495</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="784A7B7C-3DB9-8C22-D423-9508C1E0B384" referredColumn="CB65538E-9AC8-0EEF-C3DB-C8222C79A63E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6EC2372D-0A68-E313-EBBC-3657E7F3363A" name="PRODUCTO_SURTIDO_PK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>01244AAC-1BA7-5383-4838-B542EF58E68E</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EAB4489-1201-857F-CE70-B440ED042F0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C31F64F-1C8E-94E0-5DA1-98BF68179349" name="PRODUCTO_SURTIDO_PEDIDO_FK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>1E6D9F31-5476-17A1-9F0D-2F74CE8CB6C1</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62BB597E-D6B6-3835-E188-A714FFC11632"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A7A01B3-9262-9876-1DC2-D2E5F20D5430" name="PRODUCTO_SURTIDO_PRODUCTO_FK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>A2615A07-EF1B-A195-959D-E37CA436646E</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CBBDF41-9CEA-6613-27DF-4D89E6478826"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

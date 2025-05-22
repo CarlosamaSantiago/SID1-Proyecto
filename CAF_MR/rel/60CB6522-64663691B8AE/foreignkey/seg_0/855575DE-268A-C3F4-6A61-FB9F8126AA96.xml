@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="855575DE-268A-C3F4-6A61-FB9F8126AA96" containerWithKeyObject="C076096E-775D-94D1-1644-FA2F869E641D" localFKIndex="6B3B789C-F201-32B1-AAC6-C45AE9CC9470" name="MANTENIMIENTO_IMPLEMENTO_FK">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 23:00:29 UTC</createdTime>
+<generatorID>B98019D4-902A-8417-D3AB-DCF8DBD77763</generatorID>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<referredTableLongName>IMPLEMENTOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>70D88E75-DF9F-829B-D91C-AF79BC9FF88D</referredTableID>
+<keyObject>E792547D-CE1A-9C9A-2D0B-7548DD1EC33C</keyObject>
+<referredKeyID>E792547D-CE1A-9C9A-2D0B-7548DD1EC33C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idImplemento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

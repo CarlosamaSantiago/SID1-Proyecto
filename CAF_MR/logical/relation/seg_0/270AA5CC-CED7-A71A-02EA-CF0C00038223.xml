@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Venta Recepcionista" directorySegmentName="seg_0" id="270AA5CC-CED7-A71A-02EA-CF0C00038223">
+<createdBy>Scosa</createdBy>
+<createdTime>2025-05-21 22:50:09 UTC</createdTime>
+<ownerDesignName>CAF_MR</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<sourcePk>5746C520-FC0D-DBEF-1C24-17C1B6C7AE40</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Intermedia en</nameOnSource>
+<nameOnTarget>Realizada por</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D776C72F-3D58-6C86-DCE1-16AA2713F208</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B16A4822-6378-B4F8-9CB9-BA1829E6F304</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
