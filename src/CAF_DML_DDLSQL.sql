@@ -318,18 +318,16 @@ ALTER TABLE ACTIVACIONES_MENSUALES
 -- Inserción de Datos
 -- DML:
 -- CLIENTES
-INSERT INTO CLIENTES (idCliente, nombreCliente, telefonoCliente, correoCliente, sexoCliente) VALUES
-('CLI001', 'María González', '5551234567', 'maria.g@email.com', 'FEMENINO'),
-('CLI002', 'Carlos Mendoza', '5552345678', 'carlos.m@email.com', 'MASCULINO'),
-('CLI003', 'Ana López', '5553456789', 'ana.l@email.com', 'FEMENINO'),
-('CLI004', 'Jorge Ramírez', '5554567890', 'jorge.r@email.com', 'MASCULINO'),
-('CLI005', 'Luisa Fernández', '5555678901', 'luisa.f@email.com', 'FEMENINO'),
-('CLI006', 'Juliana Martinez', '5553214567', 'juliii@email.com', 'FEMENINO'),
-('CLI007', 'Andres Rodriguez', '5552344578', 'andrrz@email.com', 'MASCULINO'),
-('CLI008', 'Marta Castillo', '5553458369', 'macar@email.com', 'FEMENINO'),
-('CLI009', 'Felipe Ñandu', '5554456789', 'felipee.ñ@email.com', 'MASCULINO'),
-('CLI010', 'Salome Fernández', '5555633301', 'soe@email.com', 'FEMENINO');
-
+INSERT INTO CLIENTES VALUES ('CLI001', 'María González', '5551234567', 'maria.g@email.com', 'FEMENINO');
+INSERT INTO CLIENTES VALUES ('CLI002', 'Carlos Mendoza', '5552345678', 'carlos.m@email.com', 'MASCULINO');
+INSERT INTO CLIENTES VALUES ('CLI003', 'Ana López', '5553456789', 'ana.l@email.com', 'FEMENINO');
+INSERT INTO CLIENTES VALUES ('CLI004', 'Jorge Ramírez', '5554567890', 'jorge.r@email.com', 'MASCULINO');
+INSERT INTO CLIENTES VALUES ('CLI005', 'Luisa Fernández', '5555678901', 'luisa.f@email.com', 'FEMENINO');
+INSERT INTO CLIENTES VALUES ('CLI006', 'Juliana Martinez', '5553214567', 'juliii@email.com', 'FEMENINO');
+INSERT INTO CLIENTES VALUES ('CLI007', 'Andres Rodriguez', '5552344578', 'andrrz@email.com', 'MASCULINO');
+INSERT INTO CLIENTES VALUES ('CLI008', 'Marta Castillo', '5553458369', 'macar@email.com', 'FEMENINO');
+INSERT INTO CLIENTES VALUES ('CLI009', 'Felipe Ñandu', '5554456789', 'felipee.ñ@email.com', 'MASCULINO');
+INSERT INTO CLIENTES VALUES ('CLI010', 'Salome Fernández', '5555633301', 'soe@email.com', 'FEMENINO');
 -- PROVEEDORES
 INSERT INTO PROVEEDORES VALUES ('PROV001', '30 días neto', '5559876543', 'contacto@suplementos.com');
 INSERT INTO PROVEEDORES VALUES ('PROV002', 'Pago contra entrega', '5558765432', 'ventas@equiposgym.com');
@@ -367,72 +365,23 @@ INSERT INTO IMPLEMENTOS VALUES ('IMP003', 'Banco de pesas', TO_DATE('10/05/2021'
 INSERT INTO PEDIDOS VALUES ('PED001', TO_DATE('10/01/2023', 'DD/MM/YYYY'), 'RECIBIDO', TO_DATE('15/01/2023', 'DD/MM/YYYY'), 'PROV001');
 INSERT INTO PEDIDOS VALUES ('PED002', TO_DATE('05/02/2023', 'DD/MM/YYYY'), 'SOLICITADO', NULL, 'PROV002');
 -- VENTAS
-INSERT INTO VENTAS (idVenta, fechaVenta, idCliente, idRecepcionista) VALUES
-('VEN001', TO_DATE('10/01/2023','DD/MM/YYYY'), 'CLI001', 'REC001'),
-('VEN002', TO_DATE('12/01/2023','DD/MM/YYYY'), 'CLI002', 'REC001'),
-('VEN003', TO_DATE('14/01/2023','DD/MM/YYYY'), 'CLI003', 'REC002'),
-('VEN004', TO_DATE('16/01/2023','DD/MM/YYYY'), 'CLI004', 'REC002'),
-('VEN005', TO_DATE('18/01/2023','DD/MM/YYYY'), 'CLI005', 'REC003'),
-('VEN006', TO_DATE('20/01/2023','DD/MM/YYYY'), 'CLI006', 'REC003'),
-('VEN007', TO_DATE('22/01/2023','DD/MM/YYYY'), 'CLI007', 'REC001'),
-('VEN008', TO_DATE('24/01/2023','DD/MM/YYYY'), 'CLI008', 'REC002'),
-('VEN009', TO_DATE('26/01/2023','DD/MM/YYYY'), 'CLI009', 'REC003'),
-('VEN010', TO_DATE('28/01/2023','DD/MM/YYYY'), 'CLI010', 'REC001');
-
+INSERT INTO VENTAS VALUES ('VEN001', '10/01/2023', 'CLI001', 'REC001');
+INSERT INTO VENTAS VALUES ('VEN002', '15/01/2023', 'CLI003', 'REC002');
 -- PAGOS_MEMBRESIA
-INSERT INTO PAGOS_MEMBRESIA (idPago, fechaPago, valorPago, estadoPago, metodoPago) VALUES
-('PAG001', TO_DATE('05/01/2023','DD/MM/YYYY'), 150, 'Completo', 'Tarjeta'),
-('PAG002', TO_DATE('10/01/2023','DD/MM/YYYY'), 200, 'Completo', 'Efectivo'),
-('PAG003', TO_DATE('15/01/2023','DD/MM/YYYY'), 150, 'Pendiente', 'Efectivo'),
-('PAG004', TO_DATE('20/01/2023','DD/MM/YYYY'), 200, 'Completo', 'Tarjeta'),
-('PAG005', TO_DATE('25/01/2023','DD/MM/YYYY'), 180, 'Completo', 'Efectivo'),
-('PAG006', TO_DATE('30/01/2023','DD/MM/YYYY'), 150, 'Completo', 'Tarjeta'),
-('PAG007', TO_DATE('02/02/2023','DD/MM/YYYY'), 100, 'Completo', 'Transferencia'),
-('PAG008', TO_DATE('06/02/2023','DD/MM/YYYY'), 150, 'Completo', 'Tarjeta'),
-('PAG009', TO_DATE('10/02/2023','DD/MM/YYYY'), 200, 'Pendiente', 'Efectivo'),
-('PAG010', TO_DATE('14/02/2023','DD/MM/YYYY'), 100, 'Completo', 'Transferencia');
-
+INSERT INTO PAGOS_MEMBRESIA VALUES ('PAG001', TO_DATE('05/01/2023', 'DD/MM/YYYY'), 150, 'Completo', 'Tarjeta');
+INSERT INTO PAGOS_MEMBRESIA VALUES ('PAG002', TO_DATE('10/01/2023', 'DD/MM/YYYY'), 200, 'Completo', 'Efectivo');
 -- CONTRATOS
-INSERT INTO CONTRATOS (idContrato, fechaInicio, fechaCierre, idCliente, idPlan) VALUES
-('CONT001', TO_DATE('01/01/2023','DD/MM/YYYY'), TO_DATE('30/06/2023','DD/MM/YYYY'), 'CLI001', 'PLAN001'),
-('CONT002', TO_DATE('10/01/2023','DD/MM/YYYY'), TO_DATE('31/12/2023','DD/MM/YYYY'), 'CLI002', 'PLAN002'),
-('CONT003', TO_DATE('01/02/2023','DD/MM/YYYY'), TO_DATE('31/07/2023','DD/MM/YYYY'), 'CLI003', 'PLAN001'),
-('CONT004', TO_DATE('05/02/2023','DD/MM/YYYY'), TO_DATE('05/08/2023','DD/MM/YYYY'), 'CLI004', 'PLAN003'),
-('CONT005', TO_DATE('10/02/2023','DD/MM/YYYY'), TO_DATE('10/09/2023','DD/MM/YYYY'), 'CLI005', 'PLAN002'),
-('CONT006', TO_DATE('15/02/2023','DD/MM/YYYY'), TO_DATE('15/10/2023','DD/MM/YYYY'), 'CLI006', 'PLAN001'),
-('CONT007', TO_DATE('20/02/2023','DD/MM/YYYY'), TO_DATE('20/11/2023','DD/MM/YYYY'), 'CLI007', 'PLAN003'),
-('CONT008', TO_DATE('25/02/2023','DD/MM/YYYY'), TO_DATE('25/12/2023','DD/MM/YYYY'), 'CLI008', 'PLAN002'),
-('CONT009', TO_DATE('01/03/2023','DD/MM/YYYY'), TO_DATE('01/12/2023','DD/MM/YYYY'), 'CLI009', 'PLAN001'),
-('CONT010', TO_DATE('05/03/2023','DD/MM/YYYY'), TO_DATE('05/12/2023','DD/MM/YYYY'), 'CLI010', 'PLAN002');
+INSERT INTO CONTRATOS VALUES ('CONT001', TO_DATE('01/01/2023', 'DD/MM/YYYY'), TO_DATE('30/06/2023', 'DD/MM/YYYY'), 'CLI001', 'PLAN001');
+INSERT INTO CONTRATOS VALUES ('CONT002', TO_DATE('10/01/2023', 'DD/MM/YYYY'), TO_DATE('31/12/2023', 'DD/MM/YYYY'), 'CLI002', 'PLAN002');
 -- PRODUCTOS_SURTIDOS
 INSERT INTO PRODUCTOS_SURTIDOS VALUES ('SUR001', 20, 'PROD001', 'PED001');
 INSERT INTO PRODUCTOS_SURTIDOS VALUES ('SUR002', 50, 'PROD003', 'PED001');
 -- PRODUCTOS_VENDIDOS
-INSERT INTO PRODUCTOS_VENDIDOS (idProductoVendido, idVenta, cantidadTotal, idProducto) VALUES
-('VEND001', 'VEN001', 2, 'PROD001'),
-('VEND002', 'VEN002', 1, 'PROD002'),
-('VEND003', 'VEN003', 1, 'PROD003'),
-('VEND004', 'VEN004', 1, 'PROD004'),
-('VEND005', 'VEN005', 3, 'PROD001'),
-('VEND006', 'VEN006', 2, 'PROD003'),
-('VEND007', 'VEN007', 1, 'PROD005'),
-('VEND008', 'VEN008', 1, 'PROD001'),
-('VEND009', 'VEN009', 1, 'PROD002'),
-('VEND010', 'VEN010', 1, 'PROD004');
-
+INSERT INTO PRODUCTOS_VENDIDOS VALUES ('VEND001', 'VEN001', 2, 'PROD001');
+INSERT INTO PRODUCTOS_VENDIDOS VALUES ('VEND002', 'VEN002', 1, 'PROD003');
 -- EVALUACIONES_FISICAS
-INSERT INTO EVALUACIONES_FISICAS (idEvaluacion, fechaEvaluacion, peso, altura, imc, porcentajeGrasa, observaciones, idCliente, idEntrenador) VALUES
-('EVAL001', TO_DATE('15/01/2023','DD/MM/YYYY'), 68.5, 165, 25.2, 22.5, 'Buen estado físico', 'CLI001', 'ENT001'),
-('EVAL002', TO_DATE('20/01/2023','DD/MM/YYYY'), 75.0, 170, 25.9, 24.0, 'Necesita mejorar resistencia', 'CLI002', 'ENT002'),
-('EVAL003', TO_DATE('22/01/2023','DD/MM/YYYY'), 80.0, 180, 24.7, 21.0, 'Fuerza alta', 'CLI003', 'ENT003'),
-('EVAL004', TO_DATE('25/01/2023','DD/MM/YYYY'), 65.0, 160, 25.4, 23.0, 'Condición estable', 'CLI004', 'ENT001'),
-('EVAL005', TO_DATE('27/01/2023','DD/MM/YYYY'), 70.5, 172, 23.8, 20.0, 'Buen progreso', 'CLI005', 'ENT002'),
-('EVAL006', TO_DATE('29/01/2023','DD/MM/YYYY'), 90.0, 185, 26.3, 26.0, 'Sobrepeso', 'CLI006', 'ENT003'),
-('EVAL007', TO_DATE('01/02/2023','DD/MM/YYYY'), 55.0, 158, 22.0, 19.0, 'Buena forma', 'CLI007', 'ENT001'),
-('EVAL008', TO_DATE('03/02/2023','DD/MM/YYYY'), 60.0, 165, 22.0, 18.5, 'Mejorando', 'CLI008', 'ENT002'),
-('EVAL009', TO_DATE('05/02/2023','DD/MM/YYYY'), 85.0, 178, 26.8, 25.0, 'Leve sobrepeso', 'CLI009', 'ENT003'),
-('EVAL010', TO_DATE('07/02/2023','DD/MM/YYYY'), 62.0, 168, 22.0, 20.0, 'Excelente forma', 'CLI010', 'ENT001');
-
+INSERT INTO EVALUACIONES_FISICAS VALUES ('EVAL001', TO_DATE('15/01/2023', 'DD/MM/YYYY'), 68.5, 165, 25.2, 22.5, 'Buen estado físico', 'CLI001', 'ENT001');
+INSERT INTO EVALUACIONES_FISICAS VALUES ('EVAL002', TO_DATE('20/01/2023', 'DD/MM/YYYY'), 75.0, 170, 25.9, 24.0, 'Necesita mejorar resistencia', 'CLI002', 'ENT002');
 -- MANTENIMIENTOS
 INSERT INTO MANTENIMIENTOS VALUES ('MANT001', TO_DATE('05/01/2023', 'DD/MM/YYYY'), 'Lubricación y ajuste', 'IMP002', 'TEC001');
 INSERT INTO MANTENIMIENTOS VALUES ('MANT002', TO_DATE('12/01/2023', 'DD/MM/YYYY'), 'Cambio de piezas gastadas', 'IMP003', 'TEC002');
@@ -465,22 +414,73 @@ INSERT INTO ACTIVACIONES_MENSUALES VALUES ('ACT001', 'CONT001', 'PAG001');
 INSERT INTO ACTIVACIONES_MENSUALES VALUES ('ACT002', 'CONT002', 'PAG002');
 
 --2.Consultas:
---a) Clientes con planes de entrenamiento:
-SELECT c.nombreCliente, p.objetivoPlan, p.duracionPlan
+-- Lista de clientes con membresía vigente, incluyendo su tipo de plan y fecha de vencimiento.
+SELECT c.idCliente, c.nombreCliente, pe.objetivoPlan AS tipoPlan, ct.fechaCierre AS fechaVencimiento
 FROM CLIENTES c
-JOIN CONTRATOS co ON c.idCliente = co.idCliente
-JOIN PLANES_ENTRENAMIENTO p ON co.idPlan = p.idPlan;
--- b) Productos más vendidos
-SELECT pr.nombreProducto, SUM(pv.cantidadTotal) as total_vendido
+JOIN CONTRATOS ct ON c.idCliente = ct.idCliente
+JOIN PLANES_ENTRENAMIENTO pe ON ct.idPlan = pe.idPlan
+WHERE SYSDATE BETWEEN ct.fechaInicio AND ct.fechaCierre;
+
+-- Registro de las maquinas a las cuales no se les hace mantenimiento desde hace más de un mes
+
+SELECT m.idMaquina, m.nombreMaquina, MAX(mt.fechaMantenimiento) AS ultimaFechaMantenimiento
+FROM MAQUINAS m
+LEFT JOIN MANTENIMIENTOS mt ON m.idMaquina = mt.idMaquina
+GROUP BY m.idMaquina, m.nombreMaquina
+HAVING MAX(mt.fechaMantenimiento) < ADD_MONTHS(SYSDATE, -1)
+   OR MAX(mt.fechaMantenimiento) IS NULL;
+
+-- Recepcionista que más vende junto a su cantidad
+
+SELECT R.idRecepcionista, R.nombreRecepcionista || ' ' || R.apellidoRecepcionista AS nombre_completo, COUNT(V.idVenta) AS total_ventas
+FROM VENTAS V
+JOIN RECEPCIONISTAS R ON V.idRecepcionista = R.idRecepcionista
+GROUP BY R.idRecepcionista, R.nombreRecepcionista, R.apellidoRecepcionista
+ORDER BY total_ventas DESC
+FETCH FIRST 1 ROWS ONLY;
+
+
+-- Ingresos del ultimo mes
+
+SELECT SUM(V.totalVenta) AS ingresos_ultimo_mes
+FROM VENTAS V
+WHERE fechaVenta >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -1) AND fechaVenta < TRUNC(SYSDATE, 'MM');
+
+-- Lista los productos más vendidos en un período determinado, agrupados por categoría y cantidad total vendida. 
+
+SELECT p.descripcionProducto AS categoria, p.nombreProducto AS producto, SUM(pv.cantidadTotal) AS cantidad_total_vendida, SUM(pv.cantidadTotal * p.precioProducto) AS ingresos_totales
 FROM PRODUCTOS_VENDIDOS pv
-JOIN PRODUCTOS pr ON pv.idProducto = pr.idProducto
-GROUP BY pr.nombreProducto
-ORDER BY total_vendido DESC;
---c) Asistencia por Clientes
-SELECT c.nombreCliente, COUNT(a.idAsistencia) as dias_asistidos
-FROM CLIENTES c
-LEFT JOIN ASISTENCIAS a ON c.idCliente = a.idCliente
-GROUP BY c.nombreCliente
-ORDER BY dias_asistidos DESC;
+JOIN PRODUCTOS p ON pv.idProducto = p.idProducto
+JOIN VENTAS v ON pv.idVenta = v.idVenta
+WHERE TO_DATE(v.fechaVenta, 'DD/MM/YYYY') BETWEEN TO_DATE('01/01/2023', 'DD/MM/YYYY') AND TO_DATE('31/01/2023', 'DD/MM/YYYY')
+GROUP BY p.descripcionProducto, p.nombreProducto
+ORDER BY cantidad_total_vendida DESC;
 
 
+-- contabilizar las ventas realizadas por cada recepcionista junto con el precio total
+
+SELECT r.idRecepcionista, r.nombreRecepcionista, COUNT(v.idVenta) AS cantidad_ventas, SUM(p.precioProducto * pv.cantidadTotal) AS total_ingresos
+FROM RECEPCIONISTAS r
+JOIN VENTAS v ON r.idRecepcionista = v.idRecepcionista
+JOIN PRODUCTOS_VENDIDOS pv ON v.idVenta = pv.idVenta
+JOIN PRODUCTOS p ON pv.idProducto = p.idProducto
+GROUP BY r.idRecepcionista, r.nombreRecepcionista
+ORDER BY total_ingresos DESC;
+
+
+-- evolución del peso de cada cliente entre su primera y última evaluación física
+WITH EvaluacionesOrdenadas AS (
+SELECT ef.idCliente, c.nombreCliente, ef.fechaEvaluacion, ef.peso, ROW_NUMBER() OVER (PARTITION BY ef.idCliente ORDER BY ef.fechaEvaluacion ASC) AS primera_evaluacion, ROW_NUMBER() OVER (PARTITION BY ef.idCliente ORDER BY ef.fechaEvaluacion DESC) AS ultima_evaluacion
+FROM EVALUACIONES_FISICAS ef
+JOIN CLIENTES c ON ef.idCliente = c.idCliente
+)
+SELECT e1.idCliente, e1.nombreCliente, e1.fechaEvaluacion AS fecha_primera_evaluacion, e1.peso AS peso_inicial, e2.fechaEvaluacion AS fecha_ultima_evaluacion, e2.peso AS peso_final, ROUND(e2.peso - e1.peso, 2) AS cambio_peso,
+CASE 
+WHEN e2.peso - e1.peso > 0 THEN 'Aumento'
+WHEN e2.peso - e1.peso < 0 THEN 'Disminución'
+ELSE 'Sin cambio'
+END AS tendencia
+FROM EvaluacionesOrdenadas e1
+JOIN EvaluacionesOrdenadas e2 ON e1.idCliente = e2.idCliente
+WHERE e1.primera_evaluacion = 1 AND e2.ultima_evaluacion = 1
+ORDER BY ABS(e2.peso - e1.peso) DESC;
