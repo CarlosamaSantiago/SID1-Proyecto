@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D776C72F-3D58-6C86-DCE1-16AA2713F208" name="RECEPCIONISTA">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 18:36:39 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -18,7 +18,7 @@
 <Attribute name="idRecepcionista" id="06E1DE2C-0D7F-213E-CD19-A1B2307FFEA7">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 18:36:52 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -31,7 +31,7 @@
 <Attribute name="nombreRecepcionista" id="FFD43DFF-8E96-7422-21B6-F9EA30ED04D7">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 18:37:10 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -44,7 +44,7 @@
 <Attribute name="horarioTrabajo" id="4B55AA56-606C-CF67-A6B5-DCA8E620604D">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 18:38:47 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -56,7 +56,7 @@
 <Attribute name="salario" id="90328FFE-77FA-8C3D-8A1B-EF4CD3A1DDB2">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 18:38:58 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -66,12 +66,27 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="HORARIOS TRABAJOS idHorario" id="362B2B52-5A76-D8BE-E86D-C998CA212F4C">
+<createdBy>USUARIO</createdBy>
+<createdTime>2025-06-01 00:57:05 UTC</createdTime>
+<generatorID>6BA9B661-80C6-ADB1-6830-FA2E2B2D49E7</generatorID>
+<ownerDesignName>CAF</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<referedAttribute>A6EC5365-11EE-0DC2-3B29-3C2C2B58C04A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="5746C520-FC0D-DBEF-1C24-17C1B6C7AE40" name="RECEPCIONISTA PK">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 18:37:28 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>

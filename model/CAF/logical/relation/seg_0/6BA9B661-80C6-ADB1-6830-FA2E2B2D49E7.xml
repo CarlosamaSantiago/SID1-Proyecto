@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RECEPCIONISTAS_HORARIOS_RECEPCIONISTAS_FK" directorySegmentName="seg_0" id="6BA9B661-80C6-ADB1-6830-FA2E2B2D49E7">
+<createdBy>USUARIO</createdBy>
+<createdTime>2025-06-01 00:57:05 UTC</createdTime>
+<generatorID>9FD09480-BF46-2892-0849-2006966CE377</generatorID>
+<ownerDesignName>CAF</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<sourcePk>F6CAD4B4-BBA1-36A6-4815-C2A56EDF120C</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Cumple </nameOnSource>
+<nameOnTarget>Cumplen</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8EA7D8D8-617B-4BCE-46FC-7FA7E08E47FF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D776C72F-3D58-6C86-DCE1-16AA2713F208</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

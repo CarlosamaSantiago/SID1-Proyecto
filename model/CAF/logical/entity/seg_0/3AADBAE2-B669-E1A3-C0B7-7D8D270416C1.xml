@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3AADBAE2-B669-E1A3-C0B7-7D8D270416C1" name="CLIENTE">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 18:24:29 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -18,7 +18,7 @@
 <Attribute name="idCliente" id="B6FC4480-A38D-FBF3-E67D-7E420D98E322">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 18:25:38 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -31,7 +31,7 @@
 <Attribute name="nombreCliente" id="B6507A3E-0E95-8E13-C52E-A4EC2D8BABAD">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 18:27:52 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -44,7 +44,7 @@
 <Attribute name="telefonoCliente" id="5CA66198-27EC-FE5C-3709-1F8FB0A752A2">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 18:28:17 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -57,7 +57,7 @@
 <Attribute name="correoCliente" id="3B6C7511-D839-90F5-28D5-B50DC7376C04">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 18:28:41 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -70,7 +70,7 @@
 <Attribute name="sexoCliente" id="82770413-4E5F-AF76-72E9-6CA9C46B5088">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 18:30:02 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -85,7 +85,7 @@
 <identifier id="E56C5A6C-0ACF-DE62-240D-C0DAD62086AA" name="CLIENTE PK">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 18:27:34 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>

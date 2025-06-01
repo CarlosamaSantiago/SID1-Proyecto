@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9EE591B1-3B07-0BBB-6507-7BDC2E527DF7" name="CONTRATO">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:26:28 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -18,17 +18,20 @@
 <Attribute name="idContrato" id="5FB7EEE0-86E9-6EB0-E219-E1BBDB7DC866">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:28:07 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="fechaInicio" id="A380613F-56A3-B740-C7D7-E4CFC61CA001">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:28:13 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -40,7 +43,7 @@
 <Attribute name="fechaCierre" id="214A578E-B938-EEF4-217E-04DB1419C439">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:28:16 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -53,7 +56,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 22:41:15 UTC</createdTime>
 <generatorID>1AA10C91-81A6-6C79-6785-54EC9F6C249F</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -62,13 +65,13 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="idPlan" id="25813D04-D636-B80C-7D71-29A808D72C67">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 22:42:01 UTC</createdTime>
 <generatorID>CF5B9CD5-96DE-AFAC-4D79-E6FACF17655C</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -77,22 +80,20 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="6AAD9691-63BC-4AE0-FE5F-D9913F877A91" name="CONTRATO PK">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:28:49 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>5FB7EEE0-86E9-6EB0-E219-E1BBDB7DC866</attributeRef>
-<attributeRef>10AE4FFE-A3AF-B3FC-30BD-8D387711A850</attributeRef>
-<attributeRef>25813D04-D636-B80C-7D71-29A808D72C67</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -3,7 +3,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>D776C72F-3D58-6C86-DCE1-16AA2713F208</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <ordsAlias>recepcionista</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -13,7 +13,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>06E1DE2C-0D7F-213E-CD19-A1B2307FFEA7</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -25,7 +25,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>FFD43DFF-8E96-7422-21B6-F9EA30ED04D7</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -33,22 +33,11 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="horarioTrabajo" id="18103F92-CA1D-2C0C-D8BD-F8E00DA05441">
-<createdBy>Scosa</createdBy>
-<createdTime>2025-05-21 23:00:29 UTC</createdTime>
-<generatorID>4B55AA56-606C-CF67-A6B5-DCA8E620604D</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="salario" id="E01EAB62-4B97-5A21-B32F-398477264153">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>90328FFE-77FA-8C3D-8A1B-EF4CD3A1DDB2</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -56,18 +45,43 @@
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="HORARIOS_TRABAJOS_idHorario" id="DDDA2978-2DD4-1F5C-BEA7-CF4912F15D84">
+<createdBy>USUARIO</createdBy>
+<createdTime>2025-06-01 00:54:49 UTC</createdTime>
+<ownerDesignName>CAF</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FD09480-BF46-2892-0849-2006966CE377" referredColumn="9F1D7085-A67E-FAEA-7458-34D73DC05988"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="8C48B7DB-821E-EB1B-2B5B-AC6B377D6F6E" name="RECEPCIONISTA_PK">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>5746C520-FC0D-DBEF-1C24-17C1B6C7AE40</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="2C0233BD-E117-6294-32C4-9D70B66DA83B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE1D1162-94CF-3191-D28B-B25F106A3348" name="RECEPCIONISTAS_HORARIOS_RECEPCIONISTAS_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2025-06-01 00:54:49 UTC</createdTime>
+<ownerDesignName>CAF</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDDA2978-2DD4-1F5C-BEA7-CF4912F15D84"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

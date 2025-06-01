@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="506D555C-746F-183A-C587-CCFE4A7AAD9C" name="ACTIVACION_MENSUAL">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:32:44 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -19,49 +19,22 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 22:56:31 UTC</createdTime>
 <generatorID>73D571C7-1723-796A-4AD4-2EA33F5D1047</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
 <referedAttribute>5FB7EEE0-86E9-6EB0-E219-E1BBDB7DC866</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="idCliente" id="0688E68C-BACF-CBBA-282B-00B07BF9D63D">
-<createdBy>Scosa</createdBy>
-<createdTime>2025-05-21 22:56:31 UTC</createdTime>
-<generatorID>73D571C7-1723-796A-4AD4-2EA33F5D1047</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
-<engineerTo>
-<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
-</engineerTo>
-<referedAttribute>10AE4FFE-A3AF-B3FC-30BD-8D387711A850</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="idPlan" id="8D7FFAFC-0D6F-86E2-C140-E0F67336F983">
-<createdBy>Scosa</createdBy>
-<createdTime>2025-05-21 22:56:31 UTC</createdTime>
-<generatorID>73D571C7-1723-796A-4AD4-2EA33F5D1047</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
-<engineerTo>
-<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
-</engineerTo>
-<referedAttribute>25813D04-D636-B80C-7D71-29A808D72C67</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10 CHAR</dataTypeSize>
+<dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="idPago" id="F7414CA8-859E-5EC3-C5E7-24FDCCB7E971">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 22:56:55 UTC</createdTime>
 <generatorID>A483D61B-950B-8C05-91BF-70A9E9B1FA34</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -70,23 +43,34 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idActivacion" id="2FA64BBF-8B41-C01D-D000-F35926F89EB6">
+<createdBy>USUARIO</createdBy>
+<createdTime>2025-06-01 00:57:05 UTC</createdTime>
+<generatorID>5F77FEAE-22E8-32E5-3B40-6CEE35244B5A</generatorID>
+<ownerDesignName>CAF</ownerDesignName>
+<engineerTo>
+<item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="34D1DB52-252B-09DA-2686-79692A0DEBC1" name="ACTIVACION_MENSUAL PK">
+<identifier id="34D1DB52-252B-09DA-2686-79692A0DEBC1" name="ACTIVACION_MENSUAL_PK">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 22:56:31 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>36AD100D-5655-7B3A-A2C7-72679138ACBA</attributeRef>
-<attributeRef>0688E68C-BACF-CBBA-282B-00B07BF9D63D</attributeRef>
-<attributeRef>8D7FFAFC-0D6F-86E2-C140-E0F67336F983</attributeRef>
-<attributeRef>F7414CA8-859E-5EC3-C5E7-24FDCCB7E971</attributeRef>
+<attributeRef>2FA64BBF-8B41-C01D-D000-F35926F89EB6</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

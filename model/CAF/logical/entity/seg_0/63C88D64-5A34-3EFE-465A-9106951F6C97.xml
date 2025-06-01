@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="63C88D64-5A34-3EFE-465A-9106951F6C97" name="PRODUCTO_SURTIDO">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:50:27 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -18,7 +18,7 @@
 <Attribute name="cantidadProducto" id="BA34287B-BF11-B9F6-EAA0-4A70C43D3100">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:50:45 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -31,7 +31,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 22:58:39 UTC</createdTime>
 <generatorID>A2615A07-EF1B-A195-959D-E37CA436646E</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -40,13 +40,13 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="idPedido" id="498FE7D2-667F-B436-1755-237BDF99D495">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 22:59:21 UTC</createdTime>
 <generatorID>1E6D9F31-5476-17A1-9F0D-2F74CE8CB6C1</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -55,37 +55,34 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="idProveedor" id="EC9F1111-6D73-7A9C-C924-FC955A278A79">
-<createdBy>Scosa</createdBy>
-<createdTime>2025-05-21 22:59:21 UTC</createdTime>
-<generatorID>1E6D9F31-5476-17A1-9F0D-2F74CE8CB6C1</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<Attribute name="idSurtidos" id="7F60F97E-DA44-AA9A-A1E1-A7BDCD1D1FF1">
+<createdBy>USUARIO</createdBy>
+<createdTime>2025-06-01 00:57:05 UTC</createdTime>
+<generatorID>1EAB4489-1201-857F-CE70-B440ED042F0B</generatorID>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
-<referedAttribute>5CE13AA2-C02C-DCD4-75C7-262E34C524C0</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="01244AAC-1BA7-5383-4838-B542EF58E68E" name="PRODUCTO_SURTIDO PK">
+<identifier id="01244AAC-1BA7-5383-4838-B542EF58E68E" name="PRODUCTO_SURTIDO_PK">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 22:58:39 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>A055A2F8-1326-8E8F-C4E3-E4B599E7E5F0</attributeRef>
-<attributeRef>498FE7D2-667F-B436-1755-237BDF99D495</attributeRef>
-<attributeRef>EC9F1111-6D73-7A9C-C924-FC955A278A79</attributeRef>
+<attributeRef>7F60F97E-DA44-AA9A-A1E1-A7BDCD1D1FF1</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

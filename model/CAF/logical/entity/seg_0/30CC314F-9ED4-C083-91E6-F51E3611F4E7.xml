@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="30CC314F-9ED4-C083-91E6-F51E3611F4E7" name="PROVEEDOR">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 18:30:48 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -18,7 +18,7 @@
 <Attribute name="idProveedor" id="019B1D47-DF6B-76D9-9078-CF3C0989EAE1">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 18:31:28 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -31,7 +31,7 @@
 <Attribute name="condicionesDePago" id="92034960-5AC4-3071-17C8-AE974CCBEE3A">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 18:32:28 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -44,7 +44,7 @@
 <Attribute name="telefonoProveedor" id="F6DF88EA-5B4E-DC81-7EC3-05F7BC19E1F8">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 18:33:04 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -57,7 +57,7 @@
 <Attribute name="correoProveedor" id="744FA23B-3D3D-389A-773B-1630018C7A19">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 18:33:36 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -69,10 +69,10 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="D95651F5-04FD-5B13-42C8-072CA20B8F6F" name="Proveedor PK">
+<identifier id="D95651F5-04FD-5B13-42C8-072CA20B8F6F" name="PROVEEDOR_PK">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 18:31:43 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>

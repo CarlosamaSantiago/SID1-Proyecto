@@ -1,13 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Mantenimiento de Implemente" directorySegmentName="seg_0" id="B98019D4-902A-8417-D3AB-DCF8DBD77763">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MANTENIMIENTO IMPLEMENTO FK" directorySegmentName="seg_0" id="B98019D4-902A-8417-D3AB-DCF8DBD77763">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 22:36:12 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
 <sourcePk>03F09ADF-C43D-120A-0F5B-181E2F9B19A2</sourcePk>
-<identifying>true</identifying>
+<identifying>false</identifying>
 <nameOnSource>Se le realiza</nameOnSource>
 <nameOnTarget>Realizado en</nameOnTarget>
 <optionalSource>true</optionalSource>

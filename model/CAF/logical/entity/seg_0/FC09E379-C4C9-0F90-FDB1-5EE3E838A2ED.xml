@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC09E379-C4C9-0F90-FDB1-5EE3E838A2ED" name="PEDIDO">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:42:25 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -18,7 +18,7 @@
 <Attribute name="idPedido" id="335BD655-AD13-B628-3087-FCAC07F42819">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:42:37 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -31,7 +31,7 @@
 <Attribute name="fechaDePetición" id="A84F4829-65E0-2FB7-5249-915D246912FE">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:42:51 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -43,7 +43,7 @@
 <Attribute name="estadoPedido" id="31769813-E8B9-529F-574F-EA4F2743AB8E">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:43:35 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -56,7 +56,7 @@
 <Attribute name="fechaEntrega" id="134704B4-6B4F-CB69-447A-0D043BF82BB9">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:43:08 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -70,7 +70,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 22:58:17 UTC</createdTime>
 <generatorID>B150A89F-EB07-D8A3-371C-44197D9DEE9F</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -79,21 +79,20 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B7601F1D-6AA9-61D9-31E2-5532DDDD87CB" name="Pedido PK">
+<identifier id="B7601F1D-6AA9-61D9-31E2-5532DDDD87CB" name="PEDIDO_PK">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:42:49 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>335BD655-AD13-B628-3087-FCAC07F42819</attributeRef>
-<attributeRef>5CE13AA2-C02C-DCD4-75C7-262E34C524C0</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
