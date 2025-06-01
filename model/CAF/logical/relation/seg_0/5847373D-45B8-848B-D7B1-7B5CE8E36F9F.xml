@@ -1,13 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Productos Vendidos" directorySegmentName="seg_0" id="5847373D-45B8-848B-D7B1-7B5CE8E36F9F">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PRODUCTO VENDIDO VENTA FK" directorySegmentName="seg_0" id="5847373D-45B8-848B-D7B1-7B5CE8E36F9F">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 22:51:36 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
 <sourcePk>46242B34-D939-BC25-A8AD-BF34633A44D0</sourcePk>
-<identifying>true</identifying>
+<identifying>false</identifying>
 <nameOnSource>almacena</nameOnSource>
 <nameOnTarget>vendidos en </nameOnTarget>
 <optionalSource>true</optionalSource>

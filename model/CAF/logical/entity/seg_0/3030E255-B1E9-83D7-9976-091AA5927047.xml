@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3030E255-B1E9-83D7-9976-091AA5927047" name="PLAN_ENTRENAMIENTO">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:29:13 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -18,7 +18,7 @@
 <Attribute name="idPlan" id="37BE66A9-8623-8D2A-52E5-3E88D71E0395">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:29:27 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -31,7 +31,7 @@
 <Attribute name="objetivoPlan" id="2C614524-DC57-9C16-BABF-B9CB19ACA592">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:29:34 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -44,19 +44,19 @@
 <Attribute name="duracionPlan" id="B88BE5F0-52EF-291F-41B9-BF9D4DA4E842">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:29:40 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="costoPlan" id="F7A7AA16-1B1A-022A-8204-48649B8B36A1">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:29:47 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -69,7 +69,7 @@
 <Attribute name="observaciones" id="223EE39D-203C-CBCF-C4A7-1C8611197800">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:30:00 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -81,10 +81,10 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="E0A514C1-AF65-B7E5-02F6-8F28C0FDC1DE" name="PLAN_ENTRENAMIENTO PK">
+<identifier id="E0A514C1-AF65-B7E5-02F6-8F28C0FDC1DE" name="PLAN_ENTRENAMIENTO_PK">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:30:06 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>

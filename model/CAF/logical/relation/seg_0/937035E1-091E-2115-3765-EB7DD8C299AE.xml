@@ -1,13 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Compra Cliente" directorySegmentName="seg_0" id="937035E1-091E-2115-3765-EB7DD8C299AE">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VENTA CLIENTE FK" directorySegmentName="seg_0" id="937035E1-091E-2115-3765-EB7DD8C299AE">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 22:48:14 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
 <sourcePk>E56C5A6C-0ACF-DE62-240D-C0DAD62086AA</sourcePk>
-<identifying>true</identifying>
+<identifying>false</identifying>
 <nameOnSource>Compra</nameOnSource>
 <nameOnTarget>Vendida a</nameOnTarget>
 <optionalSource>true</optionalSource>

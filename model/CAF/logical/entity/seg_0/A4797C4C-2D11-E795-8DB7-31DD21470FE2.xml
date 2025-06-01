@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A4797C4C-2D11-E795-8DB7-31DD21470FE2" name="EVALUACION_FISICA">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:55:06 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -18,7 +18,7 @@
 <Attribute name="idEvaluación" id="0F4FBB34-5660-E37B-FDD6-64ACC0C1F429">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:55:24 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -31,7 +31,7 @@
 <Attribute name="fechaEvaluacion" id="B7A02FFD-BEE7-FE98-71CD-1FB895A130EF">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:55:30 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -43,7 +43,7 @@
 <Attribute name="peso" id="E93314E0-9E38-0657-DDD1-26D0D18D428F">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:57:04 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -56,7 +56,7 @@
 <Attribute name="estatura" id="1D6A671E-DA0A-890E-CF4F-C4AF8FBE9874">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:55:42 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -69,7 +69,7 @@
 <Attribute name="IMC" id="B51FFE8A-706D-3B7B-5881-8A655539B1AE">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:55:46 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -82,7 +82,7 @@
 <Attribute name="porcentajeGrasa" id="A2403449-80C7-A9C2-1A6F-2422839B1D63">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:55:51 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -96,7 +96,7 @@
 <Attribute name="observaciones" id="63ED9DCA-CF33-C3C3-AC6A-2972F5FFA003">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:56:00 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -111,7 +111,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 22:54:56 UTC</createdTime>
 <generatorID>618E601E-4382-CE25-F093-A48B339E577A</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -120,13 +120,13 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="idEntrenador" id="5A14C653-8A20-E14C-B4A4-CC874D573CCA">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 22:55:38 UTC</createdTime>
 <generatorID>9A010C6C-DB04-3CF3-5081-BE9325CF34B3</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -135,22 +135,20 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="8C695824-E8FF-864A-9BC4-98CFD3D425D0" name="EVALUACION_FISICA PK">
+<identifier id="8C695824-E8FF-864A-9BC4-98CFD3D425D0" name="EVALUACION_FISICA_PK">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:57:24 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>0F4FBB34-5660-E37B-FDD6-64ACC0C1F429</attributeRef>
-<attributeRef>8292ACFA-6CE1-08D4-8C9B-9A5DFE77C534</attributeRef>
-<attributeRef>5A14C653-8A20-E14C-B4A4-CC874D573CCA</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

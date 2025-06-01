@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B16A4822-6378-B4F8-9CB9-BA1829E6F304" name="VENTA">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:45:15 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -18,7 +18,7 @@
 <Attribute name="idVenta" id="CB8E4E98-5A43-FA23-D2EB-DA63545899B5">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:45:29 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -31,7 +31,7 @@
 <Attribute name="fechaVenta" id="5A3FBAC6-2E98-94A6-9135-46DB95D9377C">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:45:42 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -45,7 +45,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 22:48:14 UTC</createdTime>
 <generatorID>937035E1-091E-2115-3765-EB7DD8C299AE</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -54,13 +54,13 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="idRecepcionista" id="F98317F0-5A04-811B-1081-18B15A5F0EFF">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 22:50:09 UTC</createdTime>
 <generatorID>270AA5CC-CED7-A71A-02EA-CF0C00038223</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
@@ -69,22 +69,20 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="46242B34-D939-BC25-A8AD-BF34633A44D0" name="VENTA PK">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:45:39 UTC</createdTime>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <engineerTo>
 <item key="60CB6522-6FCF-9808-AA1D-64663691B8AE" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>CB8E4E98-5A43-FA23-D2EB-DA63545899B5</attributeRef>
-<attributeRef>BA51D510-6CFD-A002-4F88-B9949E541673</attributeRef>
-<attributeRef>F98317F0-5A04-811B-1081-18B15A5F0EFF</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
