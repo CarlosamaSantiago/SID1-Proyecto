@@ -422,14 +422,19 @@ JOIN CONTRATOS ct ON c.idCliente = ct.idCliente
 JOIN PLANES_ENTRENAMIENTO pe ON ct.idPlan = pe.idPlan
 WHERE SYSDATE BETWEEN ct.fechaInicio AND ct.fechaCierre;
 
--- Registro de los implementos a los cuales no se les hace mantenimiento desde hace más de un mes
+-- Registro de los implementos a los cuales no se les hace mantenimiento desde hace más de un mes incluyendo información del tiempo que llevan sin mantenimiento
 
-SELECT i.idImplemento, i.nombreImplemento, MAX(m.fechaMantenimiento) AS ultimaFechaMantenimiento
+SELECT i.idImplemento, i.nombreImplemento, MAX(m.fechaMantenimiento) AS ultima_fecha,
+CASE 
+WHEN MAX(m.fechaMantenimiento) IS NULL THEN 'Nunca'
+ELSE TO_CHAR(TRUNC(MONTHS_BETWEEN(SYSDATE, MAX(m.fechaMantenimiento)))) || ' meses'
+END AS tiempo_sin_mantenimiento
 FROM IMPLEMENTOS i
 LEFT JOIN MANTENIMIENTOS m ON i.idImplemento = m.idImplemento
 GROUP BY i.idImplemento, i.nombreImplemento
 HAVING MAX(m.fechaMantenimiento) < ADD_MONTHS(SYSDATE, -1)
-OR MAX(m.fechaMantenimiento) IS NULL;
+   OR MAX(m.fechaMantenimiento) IS NULL
+ORDER BY NVL(MAX(m.fechaMantenimiento), TO_DATE('01-01-1900', 'DD-MM-YYYY'));
 
 
 -- Recepcionista que más vende junto a su cantidad
