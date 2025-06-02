@@ -415,12 +415,18 @@ INSERT INTO ACTIVACIONES_MENSUALES VALUES ('ACT001', 'CONT001', 'PAG001');
 INSERT INTO ACTIVACIONES_MENSUALES VALUES ('ACT002', 'CONT002', 'PAG002');
 
 --2.Consultas:
--- Lista de clientes con membresía vigente, incluyendo su tipo de plan y fecha de vencimiento.
-SELECT c.idCliente, c.nombreCliente, pe.objetivoPlan AS tipoPlan, ct.fechaCierre AS fechaVencimiento
+-- Lista de clientes con membresía vigente, incluyendo su tipo de plan y fecha de vencimiento, incluyendo los días restantes
+SELECT c.idCliente, c.nombreCliente, pe.objetivoPlan AS tipoPlan, ct.fechaCierre AS fechaVencimiento, (ct.fechaCierre - TRUNC(SYSDATE)) AS dias_restantes,
+CASE
+WHEN (ct.fechaCierre - TRUNC(SYSDATE)) <= 7 THEN 'Vence Pronto'
+WHEN (ct.fechaCierre - TRUNC(SYSDATE)) <= 30 THEN 'Vence este Mes'
+ELSE 'Vigente'
+END AS estado_membresía
 FROM CLIENTES c
 JOIN CONTRATOS ct ON c.idCliente = ct.idCliente
 JOIN PLANES_ENTRENAMIENTO pe ON ct.idPlan = pe.idPlan
-WHERE SYSDATE BETWEEN ct.fechaInicio AND ct.fechaCierre;
+WHERE TRUNC(SYSDATE) BETWEEN ct.fechaInicio AND ct.fechaCierre
+ORDER BY dias_restantes ASC;
 
 -- Registro de los implementos a los cuales no se les hace mantenimiento desde hace más de un mes incluyendo información del tiempo que llevan sin mantenimiento
 
