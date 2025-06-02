@@ -421,30 +421,32 @@ JOIN CONTRATOS ct ON c.idCliente = ct.idCliente
 JOIN PLANES_ENTRENAMIENTO pe ON ct.idPlan = pe.idPlan
 WHERE SYSDATE BETWEEN ct.fechaInicio AND ct.fechaCierre;
 
--- Registro de las maquinas a las cuales no se les hace mantenimiento desde hace más de un mes
+-- Registro de los implementos a los cuales no se les hace mantenimiento desde hace más de un mes
 
-SELECT m.idMaquina, m.nombreMaquina, MAX(mt.fechaMantenimiento) AS ultimaFechaMantenimiento
-FROM MAQUINAS m
-LEFT JOIN MANTENIMIENTOS mt ON m.idMaquina = mt.idMaquina
-GROUP BY m.idMaquina, m.nombreMaquina
-HAVING MAX(mt.fechaMantenimiento) < ADD_MONTHS(SYSDATE, -1)
-   OR MAX(mt.fechaMantenimiento) IS NULL;
+SELECT i.idImplemento, i.nombreImplemento, MAX(m.fechaMantenimiento) AS ultimaFechaMantenimiento
+FROM IMPLEMENTOS i
+LEFT JOIN MANTENIMIENTOS m ON i.idImplemento = m.idImplemento
+GROUP BY i.idImplemento, i.nombreImplemento
+HAVING MAX(m.fechaMantenimiento) < ADD_MONTHS(SYSDATE, -1)
+OR MAX(m.fechaMantenimiento) IS NULL;
+
 
 -- Recepcionista que más vende junto a su cantidad
-
-SELECT R.idRecepcionista, R.nombreRecepcionista || ' ' || R.apellidoRecepcionista AS nombre_completo, COUNT(V.idVenta) AS total_ventas
-FROM VENTAS V
-JOIN RECEPCIONISTAS R ON V.idRecepcionista = R.idRecepcionista
-GROUP BY R.idRecepcionista, R.nombreRecepcionista, R.apellidoRecepcionista
+SELECT r.idRecepcionista, r.nombreRecepcionista AS nombre_completo, COUNT(v.idVenta) AS total_ventas
+FROM VENTAS v
+JOIN RECEPCIONISTAS r ON v.idRecepcionista = r.idRecepcionista
+GROUP BY r.idRecepcionista, r.nombreRecepcionista
 ORDER BY total_ventas DESC
 FETCH FIRST 1 ROWS ONLY;
 
 
--- Ingresos del ultimo mes
-
-SELECT SUM(V.totalVenta) AS ingresos_ultimo_mes
-FROM VENTAS V
-WHERE fechaVenta >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -1) AND fechaVenta < TRUNC(SYSDATE, 'MM');
+-- Ingresos del último mes
+SELECT SUM(p.precioProducto * pv.cantidadTotal) AS ingresos_ultimo_mes
+FROM VENTAS v
+JOIN PRODUCTOS_VENDIDOS pv ON v.idVenta = pv.idVenta
+JOIN PRODUCTOS p ON pv.idProducto = p.idProducto
+WHERE TO_DATE(v.fechaVenta, 'DD/MM/YYYY') >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -1) 
+  AND TO_DATE(v.fechaVenta, 'DD/MM/YYYY') < TRUNC(SYSDATE, 'MM');
 
 -- Lista los productos más vendidos en un período determinado, agrupados por categoría y cantidad total vendida. 
 
