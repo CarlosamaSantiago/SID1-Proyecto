@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CA01E78D-8FA5-3153-C3FE-ED5B832F02C4" name="TECNICO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CA01E78D-8FA5-3153-C3FE-ED5B832F02C4" name="TECNICOS">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 18:41:21 UTC</createdTime>
 <ownerDesignName>CAF</ownerDesignName>
@@ -62,7 +62,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT010</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="telefonoTecnico" id="BAA0E8FB-C0F3-551D-D2E5-AFAFADBECD4C">

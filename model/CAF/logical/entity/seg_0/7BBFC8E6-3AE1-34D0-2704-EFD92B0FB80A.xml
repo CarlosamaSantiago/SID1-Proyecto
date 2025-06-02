@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7BBFC8E6-3AE1-34D0-2704-EFD92B0FB80A" name="PAGO_ MEMBRESIA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7BBFC8E6-3AE1-34D0-2704-EFD92B0FB80A" name="PAGOS MEMBRESIA">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:32:58 UTC</createdTime>
 <ownerDesignName>CAF</ownerDesignName>
@@ -50,8 +50,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="estadoPago" id="920DF81E-2184-8EF5-F9D5-F96FE7C87CB0">
 <createdBy>Scosa</createdBy>

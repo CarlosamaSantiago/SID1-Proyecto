@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D7328F81-8A0C-7823-4A80-B3A8A78BCEA2" name="PRODUCTO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D7328F81-8A0C-7823-4A80-B3A8A78BCEA2" name="PRODUCTOS">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:52:37 UTC</createdTime>
 <ownerDesignName>CAF</ownerDesignName>
@@ -38,8 +38,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombreProducto" id="7B9C09E7-DB04-45F5-165D-466078EFCE6D">
 <createdBy>Scosa</createdBy>

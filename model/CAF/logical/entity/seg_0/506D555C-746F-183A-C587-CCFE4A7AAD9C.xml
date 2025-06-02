@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="506D555C-746F-183A-C587-CCFE4A7AAD9C" name="ACTIVACION_MENSUAL">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="506D555C-746F-183A-C587-CCFE4A7AAD9C" name="ACTIVACIONES MENSUALES">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 21:32:44 UTC</createdTime>
 <ownerDesignName>CAF</ownerDesignName>
@@ -28,7 +28,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="idPago" id="F7414CA8-859E-5EC3-C5E7-24FDCCB7E971">
 <createdBy>Scosa</createdBy>

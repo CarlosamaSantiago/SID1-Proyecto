@@ -3,7 +3,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>A4797C4C-2D11-E795-8DB7-31DD21470FE2</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <ordsAlias>evaluacion_fisica</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -13,7 +13,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>0F4FBB34-5660-E37B-FDD6-64ACC0C1F429</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -25,7 +25,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>B7A02FFD-BEE7-FE98-71CD-1FB895A130EF</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -36,7 +36,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>E93314E0-9E38-0657-DDD1-26D0D18D428F</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
@@ -48,19 +48,18 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>1D6A671E-DA0A-890E-CF4F-C4AF8FBE9874</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="IMC" id="3685E8EE-66F1-1DE7-0C7C-37F2401FACCC">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>B51FFE8A-706D-3B7B-5881-8A655539B1AE</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
@@ -72,7 +71,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>A2403449-80C7-A9C2-1A6F-2422839B1D63</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -85,7 +84,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>63ED9DCA-CF33-C3C3-AC6A-2972F5FFA003</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -98,7 +97,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>8292ACFA-6CE1-08D4-8C9B-9A5DFE77C534</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -114,7 +113,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>5A14C653-8A20-E14C-B4A4-CC874D573CCA</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -132,7 +131,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>8C695824-E8FF-864A-9BC4-98CFD3D425D0</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -144,7 +143,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>9A010C6C-DB04-3CF3-5081-BE9325CF34B3</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -155,7 +154,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>618E601E-4382-CE25-F093-A48B339E577A</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>

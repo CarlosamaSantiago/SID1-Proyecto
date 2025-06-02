@@ -3,7 +3,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>D7328F81-8A0C-7823-4A80-B3A8A78BCEA2</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <ordsAlias>producto</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -13,7 +13,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>A0660B20-9431-0BF8-0AB8-43193714AC0A</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -25,19 +25,18 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>3A3060F1-0633-6810-4F93-C8BC5C68E937</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="nombreProducto" id="88F7EB2F-DFE6-79A8-085F-E35129D97698">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>7B9C09E7-DB04-45F5-165D-466078EFCE6D</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -49,7 +48,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>A9BA791C-F677-5708-2D10-974AD8401858</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -60,7 +59,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>94D1911E-04AC-6673-8787-C43062C71C83</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -73,7 +72,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>B12D3886-C5BC-7399-BDA0-91FEBD00BB0D</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -88,7 +87,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>BCE276EB-710A-BCA7-41E0-8E3766CB895D</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>

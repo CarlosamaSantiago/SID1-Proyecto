@@ -45,7 +45,7 @@
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="HORARIOS_TRABAJOS_idHorario" id="DDDA2978-2DD4-1F5C-BEA7-CF4912F15D84">
+<Column name="horarioTrabajo" id="DDDA2978-2DD4-1F5C-BEA7-CF4912F15D84">
 <createdBy>USUARIO</createdBy>
 <createdTime>2025-06-01 00:54:49 UTC</createdTime>
 <ownerDesignName>CAF</ownerDesignName>

@@ -3,7 +3,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>7BBFC8E6-3AE1-34D0-2704-EFD92B0FB80A</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <ordsAlias>pago_membresia</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -13,7 +13,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>08E7AB1E-BAE4-413F-7357-69870CC2B5C1</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -25,7 +25,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>6E1745A0-EBB6-9042-6C49-C1DB64211C20</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -36,19 +36,18 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>90A10B98-7B6A-7D06-A539-7FDD28AB4D42</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="estadoPago" id="F5376A04-265A-38E6-4AA1-6B6264C51613">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>920DF81E-2184-8EF5-F9D5-F96FE7C87CB0</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -60,7 +59,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>FF0BC2AE-A6D3-D896-98D9-4C52E69159CC</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -74,7 +73,7 @@
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 23:00:29 UTC</createdTime>
 <generatorID>78195E3C-3C25-44D8-DE65-4D7FA06D8263</generatorID>
-<ownerDesignName>CAF_MR</ownerDesignName>
+<ownerDesignName>CAF</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
