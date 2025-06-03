@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D776C72F-3D58-6C86-DCE1-16AA2713F208" name="RECEPCIONISTAS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D776C72F-3D58-6C86-DCE1-16AA2713F208" name="RECEPCIONISTA">
 <createdBy>Scosa</createdBy>
 <createdTime>2025-05-21 18:36:39 UTC</createdTime>
 <ownerDesignName>CAF</ownerDesignName>
@@ -66,7 +66,7 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="horarioTrabajo" id="362B2B52-5A76-D8BE-E86D-C998CA212F4C">
+<Attribute name="horarioTrabajo1" id="362B2B52-5A76-D8BE-E86D-C998CA212F4C">
 <createdBy>USUARIO</createdBy>
 <createdTime>2025-06-01 00:57:05 UTC</createdTime>
 <generatorID>6BA9B661-80C6-ADB1-6830-FA2E2B2D49E7</generatorID>
